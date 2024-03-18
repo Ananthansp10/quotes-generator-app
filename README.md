@@ -1,3 +1,9 @@
+This is a Random Quotes Generator Website Created With Reactjs and Quotes Api.This Website Uses Bootstrap For Responsive Purposess and Other Styling Purposes Also.
+
+This Website Can Be Viewed On :- https://ananthansp10-quotes-generator-app.netlify.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
