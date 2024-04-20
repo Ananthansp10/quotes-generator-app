@@ -20,14 +20,14 @@ function App() {
   }
 
   function twitmessage(){
-   let twitt="https://twitter.com/intent/tweet?url=hello"
+   let twitt='https://twitter.com/intent/tweet?url='+quote.content
    window.open(twitt,"_blank")
   }
 
   function textvoice(){
    let quotecontent=quote.content
    let content=quotecontent.slice(0,-1)
-    let textspeak=new SpeechSynthesisUtterance(content+  "by" +quote.author)
+    let textspeak=new SpeechSynthesisUtterance(content+"by"+quote.author)
     speechSynthesis.speak(textspeak)
   }
 
